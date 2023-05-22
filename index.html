@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
   <link rel="stylesheet" href="scss/style.scss">
 <script defer="defer" src="index.js"></script><link href="index.css" rel="stylesheet"></head>
 
@@ -26,7 +27,7 @@
             </li>
             <li class="menu__item">
               <a class="menu__link" href="#">About</a>
-            </li> 
+            </li>
             <li class="menu__item">
               <a class="menu__link" href="#">Journal</a>
             </li>
@@ -38,7 +39,7 @@
             </li>
           </ul>
           <button class="menu__buy-btn">
-            Buy Template 
+            Buy Template
           </button>
           <button class="menu__cart-btn">
             <img class="menu__cart-img" src="images/cart.svg" alt="cart">
@@ -48,6 +49,47 @@
       </div>
     </div>
   </header>
+
+  <div class="shop">
+    <div class="container">
+      <div class="shop__inner">
+
+        <div class="shop__choice">
+          <p class="shop__text">
+            Shop hundreds of enamel pins from artists.
+          </p>
+          <div class="shop__buttons">
+            <button class="shop__shop-btn"></button>
+            <button class="shop__browse-btn"></button>
+          </div>
+        </div>
+
+        <div class="shop__slider swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="shop__slider-img">
+                <img src="images/shop.jpg" alt="shop">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="shop__slider-img">
+                <img src="images/shop.jpg" alt="shop">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="shop__slider-img">
+                <img src="images/shop.jpg" alt="shop">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="index.js"></script>
 </body>
 
