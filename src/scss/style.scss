@@ -1,3 +1,61 @@
-body {
-    background: tomato;
+@import '../scss/_reset.scss';
+@import '../scss/_vars.scss';
+@import '../scss/_global.scss';
+
+.header {
+    &__inner {
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    &-img {
+        max-height: 24px;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    &__list {
+        display: flex;
+        column-gap: 40px;
+        margin-right: 20px;
+    }
+    &__item {
+        font-size: 14px;
+        line-height: 133%;
+    }
+    &__buy-btn {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 13px 18px;
+        background: #DDDBDA;
+        border-radius: 3px;
+        max-height: 42px;
+    }
+    &__cart-btn {
+        padding: 12px;
+        background: #F8F9FA;
+        border-radius: 3px;
+        max-height: 42px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        span {
+            font-family: 'Roboto', sans-serif;
+            font-size: 11px;
+            line-height: 18px;
+            font-weight: 400;
+            color: $white; 
+            background: $dark;
+            border-radius: 50%;
+            padding: 0 6px;
+        }
+    }
 }
