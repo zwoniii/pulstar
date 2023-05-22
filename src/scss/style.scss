@@ -59,3 +59,51 @@
         }
     }
 }
+
+.shop {
+    &__inner {
+        display: flex;
+        align-items: flex-end;
+    }
+    &__choice {
+        min-width: 512px;
+        height: 482px;
+        background: $dark;
+    }
+    &__text {
+        font-size: 33px;
+        line-height: 129%;
+        margin: 260px 78px 28px 64px;
+        color: $white;
+    }
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+    &__slider {
+        min-width: 0px;
+    }
+    &__shop-btn,
+    &__browse-btn {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 133%;
+        font-weight: 400;
+        color: $white;   
+        padding: 11px 26px;
+
+        &:hover {
+            background: $orange;
+        }
+    }
+    &__slider {
+        &-img {
+            text-align: center;
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
