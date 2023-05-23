@@ -310,3 +310,90 @@
     }
 }
 
+.journal {
+    margin: 64px 0;
+
+    &__inner {
+        margin: 0 100px;
+        display: flex;
+        justify-content: space-between;
+        gap: 64px;
+    }
+
+    &__main {
+        min-height: 654px;
+        max-width: 508px;
+        background-image: url(../images/journal-main.jpg);
+        @include bg;
+        display: flex;
+        align-items: end;
+    }
+    
+    &__main-box {
+        background: $white;
+        margin: 16px;
+        text-align: center;
+    }
+    
+    &__main-date {
+        padding-top: 31px;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #5D6E67;
+    }
+
+    &__main-title {
+        font-size: 24px;
+        line-height: 29px;
+        margin: 0 35px 6px;
+    }
+
+    &__main-text {
+        margin: 0 32px;
+    }
+    
+    &__main-link {
+        font-weight: 700;
+        display: inline-block;
+        margin: 9px 0 32px;
+    }
+
+    &__box {
+        max-width: 508px;
+    }
+
+    &__box-title {
+        font-size: 52px;
+        line-height: 56px;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+    }
+
+    &__box-link {
+        display: inline-block;
+        margin-bottom: 180px;
+    }
+
+    &__box-article {
+        display: flex;
+        margin-top: 15px;
+    }
+
+    &__article-img {
+        margin-right: 32px;
+    }
+
+    &__article-date {
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #5D6E67;
+    }
+
+    &__article-title,
+    &__article-text {
+        line-height: 21px;
+        margin-bottom: 6px;
+    }
+}
