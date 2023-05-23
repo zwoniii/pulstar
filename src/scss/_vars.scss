@@ -1,3 +1,9 @@
 $dark: #3F3B3D;
 $orange: #F14814;
 $white: #FFFFFF; 
+
+@mixin bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
