@@ -203,7 +203,7 @@
 }
 
 .choice {
-    margin-bottom: 192px;
+    margin-bottom: 64px;
 
     &__items {
         display: grid;
@@ -242,9 +242,14 @@
     }
 }
 
+.story {
+    background-color: #F8F9FA;
+}
+
 .quote {
-    margin-bottom: 64px;
-    
+    padding-top: 128px;
+    padding-bottom: 64px;
+
     &__title {
         text-align: center;
         text-transform: uppercase;
