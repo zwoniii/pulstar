@@ -182,9 +182,9 @@
     }
     &__item {
         min-height: 420px;
-        width: 100%;
         display: flex;
         align-items: end;
+        @include bg;
     }
     &__item-info {
         display: flex;
@@ -199,5 +199,45 @@
         line-height: 16px;
         padding: 12px 0;
         text-transform: uppercase;
+    }
+}
+
+.choice {
+    margin-bottom: 64px;
+
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 8px;
+    }
+
+    &__item {
+        min-height: 477px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: end;
+        justify-content: center;
+        @include bg;
+        
+    }
+
+    &__item-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__item-title {
+        font-size: 39px;
+        line-height: 44px;
+        color: $white;
+        margin-bottom: 12px;
+    }
+
+    &__item-text {
+        font-size: 14px;
+        line-height: 19px;
+        color: $white;
+        margin-bottom: 23px;
     }
 }
