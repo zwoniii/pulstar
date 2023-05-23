@@ -144,3 +144,30 @@
         color: $dark;
     }
 }
+
+.advantages {
+    margin-bottom: 130px;
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 32px;
+        margin: 0 240px;
+    }
+
+    &__item {
+        max-width: 245px;
+        text-align: center;
+    }
+
+    &__item-title {
+        margin: 13px 0 11px 0;
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    &__item-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
