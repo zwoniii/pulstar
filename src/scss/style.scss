@@ -203,7 +203,7 @@
 }
 
 .choice {
-    margin-bottom: 64px;
+    margin-bottom: 192px;
 
     &__items {
         display: grid;
@@ -239,5 +239,11 @@
         line-height: 19px;
         color: $white;
         margin-bottom: 23px;
+    }
+}
+
+.quote {
+    &__title {
+        text-align: center;
     }
 }
