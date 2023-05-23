@@ -287,3 +287,25 @@
         line-height: 16px;
     }
 }
+
+.reviews {
+    padding-bottom: 64px;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        gap: 64px;
+    }
+
+    &__item {
+        text-align: center;
+    }
+
+    &__img {
+        margin-bottom: 13px;
+    }
+
+    &__text {
+        padding: 0 15px;
+    }
+}
