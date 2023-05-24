@@ -519,6 +519,14 @@
     }
 }
 
+@media (max-width: 900px) {
+    .choice {
+        &__item {
+            min-height: 350px;
+        }
+    }
+}
+
 @media (max-width: 730px) {
     .menu {
         gap: 5px;
@@ -578,11 +586,24 @@
             margin: 0 auto;
         }
     }
+    .choice {
+        &__item-title {
+            font-size: 32px;
+        }
+    }
     
 }
 
 @media (max-width: 560px) {
     .goods {
+        &__items {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        &__item {
+            min-height: 300px;
+        }
+    }
+    .choice {
         &__items {
             grid-template-columns: repeat(1, 1fr);
         }
