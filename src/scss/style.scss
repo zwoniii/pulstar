@@ -510,6 +510,7 @@
 
 @media (max-width: 730px) {
     .menu {
+        gap: 5px;
         &__btn {
             display: flex;
             flex-direction: column;
@@ -542,8 +543,7 @@
         
     }
     .shop {
-        &__text,
-         {
+        &__text {
             font-size: 25px;
             margin: 10px;
         }
@@ -556,11 +556,26 @@
         }
     }
     .description {
+        padding: 40px 0;
         &__text {
             font-size: 20px;
             line-height: 30px;
         }
     } 
+    .advantages {
+        &__list {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 560px) {
+    .advantages {
+        &__item-title {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+    }
 }
 
 @media (max-width: 400px) {
@@ -577,6 +592,11 @@
         &__browse-btn {
             font-size: 14px;
             padding: 5px;
+        }
+    }
+    .advantages {
+        &__list {
+            grid-gap: 20px;
         }
     }
 }
