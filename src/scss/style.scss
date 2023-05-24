@@ -506,6 +506,17 @@
             justify-content: center;
         }
     }
+    .advantages {
+        margin-bottom: 80px;
+    }
+    .goods {
+        &__items {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        &__item {
+            background-size: cover;
+        }
+    }
 }
 
 @media (max-width: 730px) {
@@ -565,6 +576,18 @@
     .advantages {
         &__list {
             margin: 0 auto;
+        }
+    }
+    
+}
+
+@media (max-width: 560px) {
+    .goods {
+        &__items {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        &__item {
+            min-height: 300px;
         }
     }
 }
