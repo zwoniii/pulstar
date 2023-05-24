@@ -11,11 +11,3 @@ menuBtn.addEventListener('click', () => {
   menu.classList.toggle('menu__list--active');
   console.log('3', [...menu.classList]);
 });
-
-
-const swiper = new Swiper('.shop__slider', {
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-});

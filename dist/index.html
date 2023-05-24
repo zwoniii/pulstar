@@ -1,375 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Lease Cars</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  <script defer="defer" src="index.js"></script><link href="index.css" rel="stylesheet"></head>
+  <body>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Pulstar</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
-  <link rel="stylesheet" href="scss/style.scss">
-<script defer="defer" src="index.js"></script><link href="index.css" rel="stylesheet"></head>
-
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="header__inner">
-        <a class="logo" href="#">
-          <img class="logo-img" src="images/logo.png" alt="logo">
-        </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a class="menu__link" href="#">Home</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">About</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Journal</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Shop</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Contact</a>
-            </li>
-          </ul>
-          <button class="menu__buy-btn">
-            Buy Template
-          </button>
-          <button class="menu__cart-btn">
-            <img class="menu__cart-img" src="images/cart.svg" alt="cart">
-            <span>0</span>
-          </button>
-          <button class="menu__btn">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <div class="shop">
-    <div class="container">
-      <div class="shop__inner">
-        <div class="shop__choice">
-          <p class="shop__text">
-            Shop hundreds of enamel pins from artists.
-          </p>
-          <div class="shop__buttons">
-            <a class="shop__shop-btn" href="#">Shop everything</a>
-            <a class="shop__browse-btn" href="#">Browse collections</a>
-          </div>
-        </div>
-
-        <div class="shop__slider swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="shop__slider-img">
-                <img src="images/shop.jpg" alt="shop">
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="shop__slider-img">
-                <img src="images/shop.jpg" alt="shop">
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="shop__slider-img">
-                <img src="images/shop.jpg" alt="shop">
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <section class="description">
-    <div class="container">
-      <div class="description__inner">
-        <h4 class="description__title">Ready, Set, Go</h4>
-        <p class="description__text">
-          Shop hundreds of enamel pins from artists. The best cool pin badges to decorate your backpack, denim jean
-          jacket, lapel, and festival hat for sale in our online store.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <div class="advantages">
-    <div class="container">
-      <ul class="advantages__list">
-        <li class="advantages__item">
-          <img class="advantages__item-img" src="images/adv-1.png" alt="make it happen">
-          <h4 class="advantages__item-title">Free Artwork</h4>
-          <p class="advantages__item-text">Free digital proofs and best design advice</p>
-        </li>
-        <li class="advantages__item">
-          <img class="advantages__item-img" src="images/adv-2.png" alt="yeah">
-          <h4 class="advantages__item-title">Lower Minimum</h4>
-          <p class="advantages__item-text">You can always start with 50 pcs here</p>
-        </li>
-        <li class="advantages__item">
-          <img class="advantages__item-img" src="images/adv-3.png" alt="bang">
-          <h4 class="advantages__item-title">100% Guarantee</h4>
-          <p class="advantages__item-text">Get excellent pins or have your money back</p>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="goods">
-    <div class="container">
-      <div class="goods__items">
-        <a class="goods__item" href="#" style="background-image: url(images/good-1.jpg);">
-          <div class="goods__item-info">
-            <p class="goods__item-text">Hard BOILED Egg and Avocado</p>
-            <p class="goods__item-price">$ 7.99 USD</p>
-          </div>
-        </a>
-        <a class="goods__item" href="#" style="background-image: url(images/good-2.jpg);">
-          <div class="goods__item-info">
-            <p class="goods__item-text">BOMB! Enamel Pin</p>
-            <p class="goods__item-price">$ 7.12 USD</p>
-          </div>
-        </a>
-        <a class="goods__item" href="#" style="background-image: url(images/good-3.jpg);">
-          <div class="goods__item-info">
-            <p class="goods__item-text">Pineapple Charm Pendant</p>
-            <p class="goods__item-price">$ 9.99 USD</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="choice">
-    <div class="container">
-      <div class="choice__items">
-        <a class="choice__item" href="#" style="background-image: url(images/choice-1.jpg);">
-          <div class="choice__item-info">
-            <h3 class="choice__item-title">Shop all</h3>
-            <p class="choice__item-text">Explore everything</p>
-          </div>
-        </a>
-        <a class="choice__item" href="#" style="background-image: url(images/choice-2.jpg);">
-          <div class="choice__item-info">
-            <h3 class="choice__item-title">Browse collection</h3>
-            <p class="choice__item-text">Get started</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="story">
-    <section class="quote">
-      <div class="container">
-        <h2 class="quote__title">Get the rest of the story</h2>
-        <div class="quote__inner">
-          <img class="quote__img" src="images/quote.jpg" alt="Sam (Trustpilot)">
-          <blockquote class="quote__box">
-            <p class="quote__text">
-              “Best templates and support out there! They are always happy to help with any issues you may be having or
-              even just showing how to edit things.”
-            </p>
-            <cite class="quote__name">Sam (Trustpilot)</cite>
-          </blockquote>
-        </div>
-      </div>
-    </section>
-
-    <div class="reviews">
-      <div class="container">
-        <ul class="reviews__items">
-          <li class="reviews__item">
-            <img class="reviews__img" src="images/review-1.svg" alt="cleo">
-            <p class="reviews__text">
-              “Great communication and help from him. Thank you.”
-            </p>
-          </li>
-          <li class="reviews__item">
-            <img class="reviews__img" src="images/review-2.svg" alt="arial">
-            <p class="reviews__text">
-              "Best templates & support out there!"
-            </p>
-          </li>
-          <li class="reviews__item">
-            <img class="reviews__img" src="images/review-3.svg" alt="walden">
-            <p class="reviews__text">
-              “Fantastic designer and web developer... but above all great people"
-            </p>
-          </li>
-          <li class="reviews__item">
-            <img class="reviews__img" src="images/review-4.svg" alt="petsplay">
-            <p class="reviews__text">
-              “Great communication with detailed screen shots.”
-            </p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- <section class="journal">
-    <div class="container">
-      <div class="journal__inner">
-        <div class="journal__main">
-          <div class="journal__main-box">
-            <p class="journal__main-date">February 26, 2022</p>
-            <h3 class="journal__main-title">
-              14 Common Misconceptions About Web Design
-            </h3>
-            <p class="journal__main-text">
-              Laboriosam et a quis. Ut quae rem consequatur omnis autem incidunt vitae. Recusandae voluptatem
-            </p>
-            <a class="journal__main-link" href="#">Read more</a>
-          </div>
-        </div>
-
-        <div class="journal__box">
-          <h2 class="journal__box-title">Journal</h2>
-          <a class="journal__box-link" href="#">Read the latest</a>
-
-          <div class="journal__box-articles">
-            <a class="journal__box-article" href="#">
-              <img class="journal__article-img" src="images/article-1.jpg" alt="article">
-              <div class="journal__article-info">
-                <p class="journal__article-date">February 26, 2022</p>
-                <h4 class="journal__article-title">
-                  What Will Website Be Like In 100 Years?
-                </h4>
-                <p class="journal__article-text">
-                  Ut aut natus consectetur est quam assumenda porro ut. Sit blanditiis et.
-                </p>
-              </div>
+    <div class="wrapper">
+      <header class="header header-main">
+        <div class="container">
+          <div class="header__inner">
+            <a class="logo" href="index.html">
+              <img class="logo__img" src="images/logo.svg" alt="logo">
             </a>
-            <a class="journal__box-article" href="#">
-              <img class="journal__article-img" src="images/article-2.jpg" alt="article">
-              <div class="journal__article-info">
-                <p class="journal__article-date">February 26, 2022</p>
-                <h4 class="journal__article-title">
-                  7 of the Best Examples of Beautiful Blog Design
-                </h4>
-                <p class="journal__article-text">
-                  Ea in ad impedit repellat. Est iure iure et quis aut enim. Ipsam temporibus culpa
-                </p>
-              </div>
-            </a>
-            <a class="journal__box-article" href="#">
-              <img class="journal__article-img" src="images/article-3.jpg" alt="article">
-              <div class="journal__article-info">
-                <p class="journal__article-date">February 26, 2022</p>
-                <h4 class="journal__article-title">
-                  7 Things About Web Design Your Boss Wants To Know
-                </h4>
-                <p class="journal__article-text">
-                  Dignissimos iste voluptas reprehenderit mollitia nemo distinctio assumenda sequi
-                </p>
-              </div>
-            </a>
+            <nav class="menu">
+              <button class="menu__btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a href="new-cars.html" class="menu__list-link">NEW CARS</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">PRE-OWNED CARS</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">FINANCE</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">LEASE VS BUY</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="contacts.html" class="menu__list-link">CONTACT US</a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
-      </div>
+      </header>
     </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__design">
-        <h2 class="footer__design-title">Celebrating the <br> perfectly imperfect</h2>
-        <div class="footer__design-images">
-          <img class="footer__design-img" src="images/footer-1.jpg" alt="footer">
-          <img class="footer__design-img" src="images/footer-2.jpg" alt="footer">
-          <img class="footer__design-img" src="images/footer-3.jpg" alt="footer">
-          <img class="footer__design-img" src="images/footer-4.jpg" alt="footer">
-        </div>
-      </div>
-
-      <div class="footer__info">
-        <p class="footer__info-subscribe">
-          Subscribe for stories and new product announcements.
-        </p>
-        <div class="footer__info-items">
-          <div class="footer__item">
-            <h4 class="footer__item-title">Shop</h4>
-            <ul class="footer__item-list">
-              <li>
-                <a class="footer__item-link" href="#">All products</a>
-              </li>
-              <li>
-                <a class="footer__item-link" href="#">Fruit</a>
-              </li>
-              <li>
-                <a class="footer__item-link" href="#">Custom</a>
-              </li>
-              <li>
-                <a class="footer__item-link" href="#">Cute</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer__item">
-            <h4 class="footer__item-title">Learn</h4>
-            <ul class="footer__item-list">
-              <li>
-                <a class="footer__item-link" href="#">Home</a>
-              </li>
-              <li>
-                <a class="footer__item-link" href="#">Shop</a>
-              </li>
-              <li>
-                <a class="footer__item-link" href="#">About us</a>
-              </li>
-              <li>
-                <a class="footer__item-link" href="#">Journal</a>
-              </li>
-              <li>
-                <a class="footer__item-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer__item">
-            <h4 class="footer__item-title">Template</h4>
-            <ul class="footer__item-list">
-              <li>
-                <a class="footer__item-link" href="#">Style Guide</a>
-              </li>
-              <li>
-                <a class="footer__item-link" href="#">Instructions</a>
-              </li>
-              <li>
-                <a class="footer__item-link" href="#">Licensing</a>
-              </li>
-              <li>
-                <a class="footer__item-link" href="#">Changelog</a>
-              </li>
-              <li>
-                <a class="footer__item-link" href="#">More Templates</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer__bottom">
-        <p class="footer__copy">
-          © Pulstar powered by <span>Webflow</span>
-        </p>
-        <button class="footer__btn">Buy Template</button>
-      </div>
-    </div>
-  </footer> -->
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="index.js"></script>
-</body>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
 </html>
