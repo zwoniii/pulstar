@@ -535,6 +535,11 @@
             font-size: 21px;
         }
     }
+    .reviews {
+        &__items {
+            gap: 30px;
+        }
+    }
 }
 
 @media (max-width: 900px) {
@@ -618,6 +623,12 @@
             margin: 20px;
         }
     }
+    .reviews {
+        &__items {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
 }
 
 @media (max-width: 560px) {
@@ -641,9 +652,6 @@
             min-height: 300px;
         }
     }
-}
-
-@media (max-width: 560px) {
     .advantages {
         &__item-title {
             margin: 5px 0;
@@ -671,6 +679,11 @@
     .advantages {
         &__list {
             grid-gap: 20px;
+        }
+    }
+    .reviews {
+        &__items {
+            grid-template-columns: repeat(1, 1fr);
         }
     }
 }
