@@ -332,6 +332,8 @@
         margin: 0 100px;
         display: flex;
         justify-content: space-between;
+        align-items: end;
+        position: relative;
         gap: 64px;
     }
 
@@ -374,29 +376,32 @@
         margin: 9px 0 32px;
     }
 
+    &__journal {
+        position: absolute;
+        left: 54%;
+        top: -8px;
+    }
+
     &__box {
         max-width: 508px;
     }
 
-    &__box-title {
+    &__title {
         font-size: 52px;
         line-height: 56px;
         text-transform: uppercase;
         margin-bottom: 14px;
     }
 
-    &__box-link {
-        display: inline-block;
-        margin-bottom: 180px;
-    }
-
-    &__box-article {
+    &__article {
         display: flex;
         margin-top: 15px;
     }
 
     &__article-img {
         margin-right: 32px;
+        width: 159px;
+        height: 115px;
     }
 
     &__article-date {
@@ -433,7 +438,6 @@
 
     &__info {
         display: flex;
-        // gap: 144px;
     }
 
     &__info-subscribe {
@@ -527,6 +531,15 @@
     .quote {
         padding-top: 80px;
     }
+    .journal {
+        &__inner {
+            margin: 0 60px;
+            gap: 30px;
+        }
+        &__journal {
+            left: 53%;
+        }
+    }
 }
 
 @media (max-width: 1000px) {
@@ -538,6 +551,26 @@
     .reviews {
         &__items {
             gap: 30px;
+        }
+    }
+    .journal {
+        &__inner {
+            flex-wrap: wrap;
+        }
+        &__main {
+            max-width: 100%;
+        }
+        &__journal {
+            position: absolute;
+            left: auto;
+            background: $white;
+            right: 5%;
+            top: 1%;
+            text-align: end;
+            padding: 5px;
+        }
+        &__box {
+            max-width: 100%;
         }
     }
 }
@@ -632,10 +665,6 @@
 }
 
 @media (max-width: 560px) {
-
-}
-
-@media (max-width: 560px) {
     .goods {
         &__items {
             grid-template-columns: repeat(1, 1fr);
@@ -656,6 +685,20 @@
         &__item-title {
             margin: 5px 0;
             font-size: 18px;
+        }
+    }
+    .journal {
+        &__inner {
+            margin: 0 auto;
+        }
+        &__main {
+            min-height: 580px;
+        }
+        &__main-title {
+            font-size: 21px;
+        }
+        &__article-img {
+            margin-right: 15px;
         }
     }
 }
@@ -684,6 +727,15 @@
     .reviews {
         &__items {
             grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    .journal {
+        &__article-text {
+            display: none;
+        }
+        &__main-title,
+        &__main-text {
+            margin: 0 20px 6px;
         }
     }
 }
